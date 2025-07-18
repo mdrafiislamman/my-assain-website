@@ -1,0 +1,23 @@
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 34;
+    color: #4E47FF;
+}
+.btn-primary{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+}
