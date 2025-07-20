@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-.navber{
+.navbar{
     display: flex;
     justify-content: space-between;
 }
@@ -18,7 +18,10 @@
     font-size: 34px;
     font-weight: 800;
     color: #4E47FF;
+    padding: 50px 0 0 150px;
 }
+
+
 .btn-primary{
     font-weight: bold;
     font-size: 16px;
@@ -47,5 +50,57 @@
 
 .acton-section{
     display: flex;
+    justify-content: space-between;
+    margin: 156px 159px 76px 141px;
     
+}
+.action-left{
+    width: 517px;
+
+}
+.action-left-title{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.action-greeting{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.action-picture{
+    width: 403px;
+    border-radius: 48px;
+}
+.productive-section{
+    background-color: #4778ff30;
+    padding: 50px 142px;
+    text-align: center;
+    margin: 76px 159px 137px 141px;
+    border-radius: 25px;
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;/
+    margin-bottom: 40px;
+    font-family: ;
+}
+.stats-container{
+     display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 158px;
+}
+.single-stat h3 {
+  font-size: 80px;
+  color: #4E47FF;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-inline: 158px 159px;
+  
+}
+.single-stat p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
